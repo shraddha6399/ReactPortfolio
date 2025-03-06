@@ -131,27 +131,27 @@ const workExperiences = {
       company: " Dew Solutions",
       companylogo: require("./assets/images/dewLogo.png"),
       date: "August 2024 – Present \n (Gurugram - on-site)",
-      desc: "<strong style='color: #000000;'>CLUPEA</strong>: Built a clinical trial data management platform with TypeScript, ReactJS, and Redux. <br/>  <strong style='color: #000000;'>TCIL</strong>: Developed an AI-powered face recognition attendance system with real-time tracking and secure authentication using ReactJS, TypeScript, Material UI, and Redux. <br/> <strong style='color: #000000;'>STACKD</strong>: Created a responsive vending machine management interface with real-time stock monitoring and role-based access."
+      desc: "<strong style='color: #666666;'>CLUPEA</strong>: Built a clinical trial data management platform with TypeScript, ReactJS, and Redux. <br/>  <strong style='color: #666666;'>TCIL</strong>: Developed an AI-powered face recognition attendance system with real-time tracking and secure authentication using ReactJS, TypeScript, Material UI, and Redux. <br/> <strong style='color: #666666;'>STACKD</strong>: Created a responsive vending machine management interface with real-time stock monitoring and role-based access."
      },
     {
       role: "Software Engineer",
       company: "Crownstack",
       companylogo: require("./assets/images/crownstack.png"),
       date: "April 2024 – July 2024 \n (Noida - on-site)",
-      desc: "<strong style='color: #000000;'>Key Result Areas:</strong> Built Next.js software, managed design changes, and ensured smooth project delivery with code integrity and collaboration. <br/>  <strong style='color: #000000;'>Client: UnlockLife Today</strong> – Developed a platform assisting seniors with vacation planning, food ordering, and TV repairs via call support, using TypeScript, Next.js, React.js, and Redux."
+      desc: "<strong style='color: #666666;'>Key Result Areas:</strong> Built Next.js software, managed design changes, and ensured smooth project delivery with code integrity and collaboration. <br/>  <strong style='color: #666666;'>Client: UnlockLife Today</strong> – Developed a platform assisting seniors with vacation planning, food ordering, and TV repairs via call support, using TypeScript, Next.js, React.js, and Redux."
     },
     {
       role: "Software Developer",
       company: "Binmile Technologies",
       companylogo: require("./assets/images/binmile.png"),
       date: "Nov 2022 – Feb 2024 \n (Noida - on-site)",
-      desc: "<strong style='color: #000000;'>Key Result Areas:</strong> Led React.js projects, ensuring high-quality, scalable solutions. Managed development, collaborated cross-functionally, and built user-centric applications. <br/> <strong style='color: #000000;'>Client: Adani</strong>  – Developed and integrated Adani One, focusing on Duty-Free and Retail modules using Next.js, TypeScript, React.js, and Redux. <br/>  <strong style='color: #000000;'>Client: Veranda Learning</strong> – Enhanced Veranda Race's Career and Branches portal with Next.js, TypeScript, Redux Toolkit, Middleware EPIC, and RxJS. <br/>  <strong style='color: #000000;'>Client: Mahindra Finance</strong> – Built and integrated KYC Portal, Bank Details, and Review Application features using TypeScript, React.js, and Redux."},
+      desc: "<strong style='color: #666666;'>Key Result Areas:</strong> Led React.js projects, ensuring high-quality, scalable solutions. Managed development, collaborated cross-functionally, and built user-centric applications. <br/> <strong style='color: #666666;'>Client: Adani</strong>  – Developed and integrated Adani One, focusing on Duty-Free and Retail modules using Next.js, TypeScript, React.js, and Redux. <br/>  <strong style='color: #666666;'>Client: Veranda Learning</strong> – Enhanced Veranda Race's Career and Branches portal with Next.js, TypeScript, Redux Toolkit, Middleware EPIC, and RxJS. <br/>  <strong style='color: #666666;'>Client: Mahindra Finance</strong> – Built and integrated KYC Portal, Bank Details, and Review Application features using TypeScript, React.js, and Redux."},
     {
       role: "Associate Frontend Developer",
       company: "Edugorilla Community",
       companylogo: require("./assets/images/edugorilla.png"),
       date: "Nov 2021 – Oct 2022 \n (Lucknow - on-site)",
-      desc: "<strong style='color: #000000;'>Key Result Areas:</strong> Fixed bugs, updated UI in ReactJS & AngularJS, and followed Agile Scrum. Managed landing pages, optimized performance, and integrated data analytics for user engagement. <br/>  <strong style='color: #000000;'>Live Classes:</strong> Enabled scheduled sessions, expanding educational offerings. <br/>  <strong style='color: #000000;'>Test Engine:</strong> Built a robust system for online assessments. <br/>  <strong style='color: #000000;'>Website Maintenance:</strong> Managed bug fixes, new features, and platform enhancements. <br/>  <strong style='color: #000000;'>B2B Platform:</strong> Developed & maintained Gibbon, ensuring a seamless online presence."
+      desc: "<strong style='color: #666666;'>Key Result Areas:</strong> Fixed bugs, updated UI in ReactJS & AngularJS, and followed Agile Scrum. Managed landing pages, optimized performance, and integrated data analytics for user engagement. <br/>  <strong style='color: #666666;'>Live Classes:</strong> Enabled scheduled sessions, expanding educational offerings. <br/>  <strong style='color: #666666;'>Test Engine:</strong> Built a robust system for online assessments. <br/>  <strong style='color: #666666;'>Website Maintenance:</strong> Managed bug fixes, new features, and platform enhancements. <br/>  <strong style='color: #666666;'>B2B Platform:</strong> Developed & maintained Gibbon, ensuring a seamless online presence."
     }
   ]
 };

@@ -112,6 +112,13 @@
   }
 }
 @media (max-width: 768px) {
+  .greeting-image-div > img {
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the circular area */
+    border-radius: 50%;
+    margin-left: 0px;
+  }
+
   .button-greeting-div {
     display: block;
     justify-items: anchor-center;
