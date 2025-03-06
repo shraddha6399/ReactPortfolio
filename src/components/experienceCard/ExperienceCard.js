@@ -67,14 +67,13 @@ export default function ExperienceCard({cardInfo, isDark}) {
           {cardInfo.date}
         </h5>
         <p
-          className={
-            isDark
-              ? "subTitle experience-text-desc dark-mode-text"
-              : "subTitle experience-text-desc"
-          }
-        >
-          {cardInfo.desc}
-        </p>
+  className={
+    isDark
+      ? "subTitle experience-text-desc dark-mode-text"
+      : "subTitle experience-text-desc"
+  }
+  dangerouslySetInnerHTML={{ __html: cardInfo.desc }}
+></p>
         <ul>
           <GetDescBullets descBullets={cardInfo.descBullets} isDark={isDark} />
         </ul>

@@ -20,26 +20,23 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Shraddha Gautam",
+  title: "Hi all, I'm Shraddha",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A passionate Software Developer 🚀 Offering over 3 years of experience , specializing in React JS and NexJs Development, I'm seeking a dynamic role to leverage expertise in creating innovative and efficient web solutions, driving excellence in React-focused development environments."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1omC-e9N2-6HZFRkt7R_-PjxL7JyFpn6b/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/shraddha6399",
+  linkedin: "https://www.linkedin.com/in/shraddha-gautam-ba0382193/",
+  gmail: "shraddhagautam99@gmail.com",
+  medium: "https://medium.com/@shraddhagautam99",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -49,74 +46,35 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "CRAZY SOFTWARE DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     emoji(
       "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
     ),
     emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Integration of third party services"
     )
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
 
-  softwareSkills: [
-    {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
-    }
-  ],
+softwareSkills: [
+  { skillName: "reactjs" },
+  { skillName: "Nextjs" },
+  { skillName: "JavaScript" },
+  { skillName: "Typescript" },
+  { skillName: "Redux" },
+  { skillName: "npm" },
+  { skillName: "html-5" },
+  { skillName: "Tailwindcss" },
+  { skillName: "css3" },
+  { skillName: "sass" },
+  { skillName: "MaterialUI" },
+  { skillName: "bootstrap" },
+  { skillName: "git" }
+],
   display: true // Set false to hide this section, defaults to true
 };
 
@@ -126,23 +84,22 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      schoolName: "Meerut Institue of Engineering and Technologies",
+      logo: require("./assets/images/mietLogo.png"),
+      subHeader: "Bachelors in computer science and engineering",
+      duration: "2016 - 2020",
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "St.Anthony’s Senior Secondary School, CBSE, Rampur (U.P)",
+      logo: require("./assets/images/stAnthony.png"),
+      subHeader: "12th (Physics, chemistry, Maths)",
+      duration: "2014 - 2015",
+    },
+    {
+      schoolName: "ST.Mary's Senior Secondary School, CBSE, Rampur (U.P)",
+      logo: require("./assets/images/stMary.png"),
+      subHeader: "10th",
+      duration: "2012 - 2013",
     }
   ]
 };
@@ -154,15 +111,11 @@ const techStack = {
   experience: [
     {
       Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
-    },
-    {
-      Stack: "Backend",
-      progressPercentage: "70%"
+      progressPercentage: "80%" //Insert relative proficiency in percentage
     },
     {
       Stack: "Programming",
-      progressPercentage: "60%"
+      progressPercentage: "65%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -175,28 +128,30 @@ const workExperiences = {
   experience: [
     {
       role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      company: " Dew Solutions",
+      companylogo: require("./assets/images/dewLogo.png"),
+      date: "August 2024 – Present \n (Gurugram - on-site)",
+      desc: "<strong style='color: #000000;'>CLUPEA</strong>: Built a clinical trial data management platform with TypeScript, ReactJS, and Redux. <br/>  <strong style='color: #000000;'>TCIL</strong>: Developed an AI-powered face recognition attendance system with real-time tracking and secure authentication using ReactJS, TypeScript, Material UI, and Redux. <br/> <strong style='color: #000000;'>STACKD</strong>: Created a responsive vending machine management interface with real-time stock monitoring and role-based access."
+     },
+    {
+      role: "Software Engineer",
+      company: "Crownstack",
+      companylogo: require("./assets/images/crownstack.png"),
+      date: "April 2024 – July 2024 \n (Noida - on-site)",
+      desc: "<strong style='color: #000000;'>Key Result Areas:</strong> Built Next.js software, managed design changes, and ensured smooth project delivery with code integrity and collaboration. <br/>  <strong style='color: #000000;'>Client: UnlockLife Today</strong> – Developed a platform assisting seniors with vacation planning, food ordering, and TV repairs via call support, using TypeScript, Next.js, React.js, and Redux."
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
+      role: "Software Developer",
+      company: "Binmile Technologies",
+      companylogo: require("./assets/images/binmile.png"),
+      date: "Nov 2022 – Feb 2024 \n (Noida - on-site)",
+      desc: "<strong style='color: #000000;'>Key Result Areas:</strong> Led React.js projects, ensuring high-quality, scalable solutions. Managed development, collaborated cross-functionally, and built user-centric applications. <br/> <strong style='color: #000000;'>Client: Adani</strong>  – Developed and integrated Adani One, focusing on Duty-Free and Retail modules using Next.js, TypeScript, React.js, and Redux. <br/>  <strong style='color: #000000;'>Client: Veranda Learning</strong> – Enhanced Veranda Race's Career and Branches portal with Next.js, TypeScript, Redux Toolkit, Middleware EPIC, and RxJS. <br/>  <strong style='color: #000000;'>Client: Mahindra Finance</strong> – Built and integrated KYC Portal, Bank Details, and Review Application features using TypeScript, React.js, and Redux."},
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Associate Frontend Developer",
+      company: "Edugorilla Community",
+      companylogo: require("./assets/images/edugorilla.png"),
+      date: "Nov 2021 – Oct 2022 \n (Lucknow - on-site)",
+      desc: "<strong style='color: #000000;'>Key Result Areas:</strong> Fixed bugs, updated UI in ReactJS & AngularJS, and followed Agile Scrum. Managed landing pages, optimized performance, and integrated data analytics for user engagement. <br/>  <strong style='color: #000000;'>Live Classes:</strong> Enabled scheduled sessions, expanding educational offerings. <br/>  <strong style='color: #000000;'>Test Engine:</strong> Built a robust system for online assessments. <br/>  <strong style='color: #000000;'>Website Maintenance:</strong> Managed bug fixes, new features, and platform enhancements. <br/>  <strong style='color: #000000;'>B2B Platform:</strong> Developed & maintained Gibbon, ensuring a seamless online presence."
     }
   ]
 };
@@ -206,7 +161,7 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
@@ -216,28 +171,74 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/unlockLife.png"),
+      projectName: "Unlocklife Today",
+      projectDesc: "Assistance for seniors with a vacation plan, ordering food repairing TV, etc on a call, Creating a world where every senior is independent and confident. We are the digital children who get things done.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://saayahealth.com/"
+          url: "https://www.unlocklife.today/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/adaniOne.png"),
+      projectName: "Adani",
+      projectDesc: "Adani One is a comprehensive platform with a wide range of offerings. It is designed to improve everyday experiences for our customers by fusing comfort, quality, and ease of use.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://www.adanione.com/"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/mahindraFinance.png"),
+      projectName: "Mahindra Finance",
+      projectDesc: "leading financial services provider, products include Vehicle Loans, SME Finance, Personal Loans, Insurance Broking, Housing Finance, Fixed Deposits and Mutual Fund schemes",
       footerLink: [
         {
           name: "Visit Website",
-          url: "http://nextu.se/"
+          url: "https://www.mahindrafinance.com/"
         }
       ]
-    }
+    },
+    {
+      image: require("./assets/images/verndaRace.png"),
+      projectName: "Veranda Race",
+      projectDesc: "Veranda RACE is the leading Coaching Centre Across Tamil Nadu, Kerala & Karnataka and remains the one-stop solution for success in govt. exams",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://verandarace.com/"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
+    {
+      image: require("./assets/images/edugorillaLogo.png"),
+      projectName: "EduGorilla test series",
+      projectDesc: "EduGorilla is a ELearning Platform provides test series, Live classes,Video Courses, Study Notes , Mock Interviews and much more.",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "https://testseries.edugorilla.com/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/clupeaLogo.png"),
+      projectName: "CLUPEA- Accelerating Clinical Trials",
+      projectDesc: "It provides a versatile and innovative platform that excels at the seamless management of clinical trial data",
+      footerLink: [
+        {
+          name: "Visit Website",
+          url: "http://clupea.co.kr/main"
+        }
+        //  you can add extra buttons here.
+      ]
+    },
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -300,7 +301,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -324,7 +325,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -343,7 +344,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -356,7 +357,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Resume Section
@@ -372,8 +373,8 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  number: "+91-6399719619",
+  email_address: "shraddhagautam99@gmail.com"
 };
 
 // Twitter Section
@@ -383,7 +384,7 @@ const twitterDetails = {
   display: true // Set true to display this section, defaults to false
 };
 
-const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
 
 export {
   illustration,
