@@ -33,9 +33,9 @@ export default function Greeting() {
                     ? "dark-mode greeting-text-p"
                     : "greeting-text-p subTitle"
                 }
-              >
-                {greeting.subTitle}
-              </p>
+                dangerouslySetInnerHTML={{__html: greeting.subTitle}}
+              />
+
               <div id="resume" className="empty-div"></div>
               <SocialMedia />
               <div className="button-greeting-div">
@@ -53,12 +53,10 @@ export default function Greeting() {
             </div>
           </div>
           <div className="greeting-image-div">
-          
-              <img
-                alt="man sitting on table"
-                src={require("../../assets/images/profile.png")}
-              ></img>
-           
+            <img
+              alt="man sitting on table"
+              src={require("../../assets/images/profile.png")}
+            ></img>
           </div>
         </div>
       </div>

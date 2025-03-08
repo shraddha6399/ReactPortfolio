@@ -21,9 +21,9 @@ const illustration = {
 
 const greeting = {
   username: "Shraddha Gautam",
-  title: "Hi all, I'm Shraddha",
+  title: "Hi, I'm Shraddha",
   subTitle: emoji(
-    "A passionate Software Developer 🚀 Offering over 3 years of experience , specializing in React JS and NexJs Development, I'm seeking a dynamic role to leverage expertise in creating innovative and efficient web solutions, driving excellence in React-focused development environments."
+    "A passionate <br/><strong style='font-size: large;'> SOFTWARE DEVELOPER </strong> <br/>Offering over 3 years of experience , specializing in React JS and NexJs Development, I'm seeking a dynamic role to leverage expertise in creating innovative and efficient web solutions, driving excellence in React-focused development environments."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1omC-e9N2-6HZFRkt7R_-PjxL7JyFpn6b/view?usp=sharing", // Set to empty to hide the button
@@ -110,7 +110,7 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
+      Stack: "Frontend", //Insert stack or technology you have experience in
       progressPercentage: "80%" //Insert relative proficiency in percentage
     },
     {
@@ -131,27 +131,27 @@ const workExperiences = {
       company: " Dew Solutions",
       companylogo: require("./assets/images/dewLogo.png"),
       date: "August 2024 – Present \n (Gurugram - on-site)",
-      desc: "<strong style='color: #666666;'>CLUPEA</strong>: Built a clinical trial data management platform with TypeScript, ReactJS, and Redux. <br/>  <strong style='color: #666666;'>TCIL</strong>: Developed an AI-powered face recognition attendance system with real-time tracking and secure authentication using ReactJS, TypeScript, Material UI, and Redux. <br/> <strong style='color: #666666;'>STACKD</strong>: Created a responsive vending machine management interface with real-time stock monitoring and role-based access."
+      desc: "<strong>CLUPEA</strong>: Built a clinical trial data management platform with TypeScript, ReactJS, and Redux. <br/>  <strong '>TCIL</strong>: Developed an AI-powered face recognition attendance system with real-time tracking and secure authentication using ReactJS, TypeScript, Material UI, and Redux. <br/> <strong '>STACKD</strong>: Created a responsive vending machine management interface with real-time stock monitoring and role-based access."
      },
     {
       role: "Software Engineer",
       company: "Crownstack",
       companylogo: require("./assets/images/crownstack.png"),
       date: "April 2024 – July 2024 \n (Noida - on-site)",
-      desc: "<strong style='color: #666666;'>Key Result Areas:</strong> Built Next.js software, managed design changes, and ensured smooth project delivery with code integrity and collaboration. <br/>  <strong style='color: #666666;'>Client: UnlockLife Today</strong> – Developed a platform assisting seniors with vacation planning, food ordering, and TV repairs via call support, using TypeScript, Next.js, React.js, and Redux."
+      desc: "<strong '>Key Result Areas:</strong> Built Next.js software, managed design changes, and ensured smooth project delivery with code integrity and collaboration. <br/>  <strong '>Client: UnlockLife Today</strong> – Developed a platform assisting seniors with vacation planning, food ordering, and TV repairs via call support, using TypeScript, Next.js, React.js, and Redux."
     },
     {
       role: "Software Developer",
       company: "Binmile Technologies",
       companylogo: require("./assets/images/binmile.png"),
       date: "Nov 2022 – Feb 2024 \n (Noida - on-site)",
-      desc: "<strong style='color: #666666;'>Key Result Areas:</strong> Led React.js projects, ensuring high-quality, scalable solutions. Managed development, collaborated cross-functionally, and built user-centric applications. <br/> <strong style='color: #666666;'>Client: Adani</strong>  – Developed and integrated Adani One, focusing on Duty-Free and Retail modules using Next.js, TypeScript, React.js, and Redux. <br/>  <strong style='color: #666666;'>Client: Veranda Learning</strong> – Enhanced Veranda Race's Career and Branches portal with Next.js, TypeScript, Redux Toolkit, Middleware EPIC, and RxJS. <br/>  <strong style='color: #666666;'>Client: Mahindra Finance</strong> – Built and integrated KYC Portal, Bank Details, and Review Application features using TypeScript, React.js, and Redux."},
+      desc: "<strong '>Key Result Areas:</strong> Led React.js projects, ensuring high-quality, scalable solutions. Managed development, collaborated cross-functionally, and built user-centric applications. <br/> <strong '>Client: Adani</strong>  – Developed and integrated Adani One, focusing on Duty-Free and Retail modules using Next.js, TypeScript, React.js, and Redux. <br/>  <strong '>Client: Veranda Learning</strong> – Enhanced Veranda Race's Career and Branches portal with Next.js, TypeScript, Redux Toolkit, Middleware EPIC, and RxJS. <br/>  <strong '>Client: Mahindra Finance</strong> – Built and integrated KYC Portal, Bank Details, and Review Application features using TypeScript, React.js, and Redux."},
     {
       role: "Associate Frontend Developer",
       company: "Edugorilla Community",
       companylogo: require("./assets/images/edugorilla.png"),
       date: "Nov 2021 – Oct 2022 \n (Lucknow - on-site)",
-      desc: "<strong style='color: #666666;'>Key Result Areas:</strong> Fixed bugs, updated UI in ReactJS & AngularJS, and followed Agile Scrum. Managed landing pages, optimized performance, and integrated data analytics for user engagement. <br/>  <strong style='color: #666666;'>Live Classes:</strong> Enabled scheduled sessions, expanding educational offerings. <br/>  <strong style='color: #666666;'>Test Engine:</strong> Built a robust system for online assessments. <br/>  <strong style='color: #666666;'>Website Maintenance:</strong> Managed bug fixes, new features, and platform enhancements. <br/>  <strong style='color: #666666;'>B2B Platform:</strong> Developed & maintained Gibbon, ensuring a seamless online presence."
+      desc: "<strong '>Key Result Areas:</strong> Fixed bugs, updated UI in ReactJS & AngularJS, and followed Agile Scrum. Managed landing pages, optimized performance, and integrated data analytics for user engagement. <br/>  <strong '>Live Classes:</strong> Enabled scheduled sessions, expanding educational offerings. <br/>  <strong '>Test Engine:</strong> Built a robust system for online assessments. <br/>  <strong '>Website Maintenance:</strong> Managed bug fixes, new features, and platform enhancements. <br/>  <strong '>B2B Platform:</strong> Developed & maintained Gibbon, ensuring a seamless online presence."
     }
   ]
 };
